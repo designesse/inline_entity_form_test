@@ -1,0 +1,9 @@
+type: ief_test_previous_next
+name: IEF test previous_next
+description: 'Content type for IEF previous_next widget testing.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
+status: true
+langcode: en
