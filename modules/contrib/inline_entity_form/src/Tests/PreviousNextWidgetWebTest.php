@@ -53,9 +53,9 @@ class PreviousNextWidgetWebTest extends InlineEntityFormTestBase {
       'create ief_reference_type content',
       'edit any ief_reference_type content',
       'delete any ief_reference_type content',
-      'create ief_test_complex content',
-      'edit any ief_test_complex content',
-      'delete any ief_test_complex content',
+      'create ief_test_previous_next content',
+      'edit any ief_test_previous_next content',
+      'delete any ief_test_previous_next content',
       'edit any ief_test_nested1 content',
       'edit any ief_test_nested2 content',
       'edit any ief_test_nested3 content',
@@ -64,7 +64,7 @@ class PreviousNextWidgetWebTest extends InlineEntityFormTestBase {
     ]);
     $this->drupalLogin($this->user);
 
-    $this->formContentAddUrl = 'node/add/ief_test_complex';
+    $this->formContentAddUrl = 'node/add/ief_test_previous_next';
     $this->entityFormDisplayStorage = $this->container->get('entity_type.manager')->getStorage('entity_form_display');
     $this->fieldConfigStorage = $this->container->get('entity_type.manager')->getStorage('field_config');
   }
